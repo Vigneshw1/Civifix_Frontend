@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-image: linear-gradient(to right, rgb(0, 52, 105), rgb(0, 96, 193));
+}
+.hi{
+    background-image: linear-gradient(to right, rgb(0, 52, 105), rgb(0, 96, 193));
+}
+.sign {
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fade-in 1s ease-out;
+}
+
+@keyframes fade-in {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.f {
+    display: flex;
+    justify-content: center;
+}
+
+.in {
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.in:focus {
+    border-color: rgb(0, 96, 193);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-link {
+    color: blue;
+    cursor: pointer;
+}
+
+.but {
+    height: 45px;
+    width: 100%;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    background-image: linear-gradient(to right, rgb(0, 52, 105), rgb(0, 96, 193));
+}
+
+.but:hover {
+    transform: scale(1.05);
+}

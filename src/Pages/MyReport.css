@@ -1,0 +1,35 @@
+.mr-main{
+    height: 50vh;
+    width: 100vw;
+}
+.mr-one{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 90px;
+}
+.hk{
+    margin: 100px;
+    height: 40vh;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.hk:hover{
+    transform: scale(1.05);
+}
+.sri{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+.wig{
+    height: 30vh;
+    width: 20vw;
+}

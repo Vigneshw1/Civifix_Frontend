@@ -1,0 +1,44 @@
+.f-main{
+    height: 35vh;
+    background-image: linear-gradient(to right,rgb(0,52,105),rgb(0,96,193));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    font-size: 13px;
+}
+.kl{
+    color: whitesmoke;
+}
+.fk{
+    width: 10vw;
+}
+.pl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.nav-link1{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.nav-link1:hover{
+    color: rgba(130, 130, 130, 0.704);
+}
+.k1{
+    width: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.jk{
+    width: 350vw;
+}

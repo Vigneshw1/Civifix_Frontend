@@ -1,0 +1,19 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins';
+}
+
+label,h1,h2,p,.nav-link ,.nav-link1,button,.fh{
+    font-family: 'Poppins';
+}
+@media (max-width:1300)
+{
+    label,h1,h2,p,.nav-link ,.nav-link1,button,.fh{
+
+        font-size: 15px;
+    }
+}
